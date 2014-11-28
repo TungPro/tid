@@ -1,0 +1,73 @@
+.hdr .searchBox ul li.txt input{
+	position:relative;
+	top:-1px
+}
+.uiUfi .ufiItem .imageBlock_Ext ul.uiMenu{
+	right:-1px
+}
+.uiComposerOpen .composerTypeahead{
+	top:-1px;
+}
+.jewelContainer .tikJewel a.jewelButton:visited,
+.jewelContainer .tikJewel a.jewelButton:link{
+	width:20px;
+	height:18px;
+	padding:6px 0 0 4px;
+	margin-left:2px;
+}
+.jewelContainer .tikJewel a.jewelButton span.ico{
+	float:left;
+	margin:0;
+}
+.jewelContainer .tikJewel .clrBtmBor{
+	bottom:-2px;
+}
+.jewelContainer .tikJewel .jewelMenu li.item{
+	float:left;
+}
+.jewelContainer .tinyman{
+	height:20px;
+	zoom:1;
+	overflow:hidden;
+}
+.jewelContainer .tikJewel .jewelMenu li.item#viewAll{
+	padding:5px;
+	float:none;
+	text-align:center;
+	font-weight:bold;
+	background:#f1f1f1;
+}
+.jewelContainer .tikJewel .jewelMenu li.item.mHover#viewAll{
+	background:#458ac5;
+}
+.jewelContainer .tikJewel#AccountMenu{
+	zoom:1
+}
+.jewelContainer .tikJewel#AccountMenu a.jewelButton:visited,
+.jewelContainer .tikJewel#AccountMenu a.jewelButton:link{
+	text-indent:0;
+	width:70px;
+	color:#000000;
+	padding:0 7px;
+	height:24px;
+}
+.jewelContainer .tikJewel#AccountMenu a.jewelButton span.arr{
+	float:right;
+	margin:10px 0 0 0
+}
+.jewelContainer .tikJewel#AccountMenu a.jewelButton .clrBtmBor{
+	width:85px;
+	overflow:hidden;
+	height:0;
+	left:5px;
+}
+.jewelContainer .tikJewel#AccountMenu .jewelMenu{
+	zoom:1;
+}
+.jewelContainer .tikJewel#AccountMenu .jewelMenu li{
+	display:inline;
+}
+.jewelContainer .tikJewel#AccountMenu .jewelMenu li a{
+	zoom:1;
+	width:150px;
+}

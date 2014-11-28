@@ -1,0 +1,179 @@
+/*lighbox*/
+.bigbox {
+	position: fixed;
+	z-index: 2000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display:none;
+}
+
+*html .bigbox {
+	\position: absolute;
+	p\osition: absolute;
+}
+
+.windowmask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 3000px!important;
+	background: black;
+	opacity: 0.6;
+	filter: alpha(Opacity=60);
+}
+
+iframe.windowmask {
+	position: relative;
+	opacity: 0;
+	filter: alpha(Opacity=0);
+}
+*html .windowmask {
+	\width: 100%;
+	w\idth: 100%;
+	height:3000px!important;
+}
+
+/**html .windowmask {
+	\width: 100%;
+	w\idth: 100%;
+	\height: expression(document.body.offsetHeight*3 + 'px');
+	h\eight: expression(document.body.offsetHeight*3 + 'px');
+}
+*/
+.lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: transparent;
+	font-family: Tahoma;
+	font-size: 8.25pt;
+}
+
+.lightbox .closebutton {
+ 	position: absolute;
+ 	top: 3px;
+ 	right: 3px;
+ 	width: 18px;
+ 	height: 18px;
+ 	background: transparent url(../../images/button/close.html) no-repeat;
+ 	cursor: pointer;
+}
+
+#loading {
+	position:fixed;
+	z-index:2001;
+	top:0;
+	left:0;
+	width:100%;
+	display:none;
+}
+
+*html #loading {
+	\position: absolute;
+	p\osition: absolute;
+}
+
+#loading img{
+	top: 350px;
+	position: relative;
+}
+
+/*****/
+.contentbox{min-width:300px; width:300px; margin:0; padding:0; overflow:hidden;}
+.contentbox #lbheader {color:#FFFFFF; font-weight:bold; background:#317b0f; border:1px solid #3e8f19; padding:4px 12px}
+.contentbox .lbcont .highlight{text-align:center; padding:10px 0 0 0}
+.contentbox .lbcont .highlight span{text-align:center; padding:0 5px}
+
+
+/**LightBox**/
+.lightbox-sidebox {}
+.lightbox-border .b {
+  background:url(../images/graphics/b.png);
+  _background:none;
+	*background:none;
+	background:none\0/;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/../images/graphics/b.html', sizingMethod='scale');
+}
+.lightbox-border .bbody {
+  background:url(../images/graphics/bbody.png);
+  _background:none;
+	*background:none;
+	background:none\0/;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/../images/graphics/b2.html', sizingMethod='scale');
+}
+.lightbox-border .tl {
+	background:url(../images/graphics/tl.png) no-repeat;
+	 _background:none;
+	*background:none;
+	background:none\0/;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/../images/graphics/tl.html', sizingMethod='crop');
+}
+.lightbox-border .tr {
+	background:url(../images/graphics/tr.png) no-repeat;
+	_background:none;
+	*background:none;
+	background:none\0/;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/../images/graphics/tr.html', sizingMethod='crop');
+}
+.lightbox-border .bl {
+  background:url(../images/graphics/bl.png) no-repeat;
+  _background:none;
+	*background:none;
+	background:none\0/;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/../images/graphics/bl.html', sizingMethod='crop');
+}
+.lightbox-border .br {
+  background:url(../images/graphics/br.png) no-repeat;
+  _background:none;
+	*background:none;
+	background:none\0/;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/../images/graphics/br.html', sizingMethod='crop');
+}
+.lightbox-border .tl, .lightbox-border .tr, .lightbox-border .bl, .lightbox-border .br {
+  width:9px;
+  height:8px;
+  overflow: hidden;
+  padding: 0;
+}
+.lightbox-boxhead {
+	border-bottom:solid 1px #145699;
+	margin: 0;
+	padding: 0;
+}
+.lightbox-boxhead .tlc {
+	background: url(../images/graphics/lightbox-tlc.gif) no-repeat top left;
+	margin: 0;
+	padding-left:10px;
+}
+.lightbox-boxhead .trc {
+	background: url(../images/graphics/lightbox-trc.gif) no-repeat top right;
+	margin: 0;
+	padding-right:10px;
+}
+.lightbox-boxhead .boxhead-content {
+	background:url(../images/graphics/lightbox-tb.gif) repeat-x top;
+	padding:4px 0px;
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;
+}
+.lightbox-boxhead .boxhead-content .close-btn {
+	width:10px;
+	height:10px;
+	background:url(../images/buttons/close-btn.gif) no-repeat;
+	margin-top:3px;
+}
+.lightbox-boxhead .boxhead-content-main {}
+.lightbox-boxbody {
+	margin: 0;
+	border:none;
+	background-color:#fff;
+	padding:10px;
+}
+/*Form*/
+.lightbox-boxbody input.private, .lightbox-boxbody textarea.private {
+	color:#333;
+}
+.lightbox-content01 {}

@@ -1,0 +1,41 @@
+.uiBtn{
+	display:block;
+	position:relative;
+	height:20px;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-align:center;
+	background:url(../Images/gradient-2.png) repeat-x 0 0;
+	line-height:20px;
+	padding:0 7px;
+	border:1px solid #276100;
+	overflow:hidden;
+	cursor:pointer;
+	font-size:11px !important;
+}
+.uiBtn.confirm{
+	background-position:0 -34px;
+	border-color:#0f4a7c
+}
+.uiBtn input{
+	width:100%;
+	height:22px;
+	position:absolute;
+	left:1px;
+	top:-2px;
+	font-weight:bold;
+	background:none;
+	border:0;
+	color:#FFFFFF;
+	font-size:11px;
+	cursor:pointer
+}
+span.uiBtn a:link,
+span.uiBtn a:visited{
+	color:#FFFFFF;
+	display:block;
+}
+span.uiBtn a:hover,
+span.uiBtn a:active{
+	text-decoration:none !important;
+}

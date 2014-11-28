@@ -1,0 +1,87 @@
+textarea.bor, .inputtext, .inputpassword {
+    border: 1px solid #0084b0;
+    padding:0 5px;
+	height:20px;
+	line-height:20px;
+	color:#666666;
+}
+.inputbox{
+	padding:1px 5px;
+	height:18px;
+	border:1px solid #ccc
+}
+input, textarea{
+	outline:none;
+	font-family:Tahoma;
+	font-size:11px;
+	color:#666666
+}
+body{
+	margin:0;
+	padding:0;
+	font-family:"lucida grande",Tahoma,verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333;
+	unicode-bidi:embed;
+	direction:ltr;
+	text-align:left;
+}
+a:link, a:visited{
+	color:#1f5d92;
+	text-decoration:none;
+	outline:none;
+}
+a:hover, a:active{
+	text-decoration:underline;
+}
+ul.ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}		
+h1, h2, h3, h4, h5, h6, form{
+	margin:0;
+	padding:0;
+}
+
+img{
+	border:0
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clr{
+	display:block;
+	clear:both;
+	float:none;
+	width:100%;
+	overflow:hidden;
+	height:0;
+}
+.bdw{
+	width:986px;
+	margin:0 auto;
+}
+.gradBg{
+	background:url(../Images/gradient-2.png) repeat-x 0 0;
+}
+.mbt{
+	margin-bottom:10px;
+}
+
+.footer .lnk{
+	padding:8px 0;
+	text-align:right;
+}
+.footer .info{
+	border-top:1px solid #e5e5e5;
+	padding:10px 0;
+}
+.note{
+	font-size:11px;
+	color:#999;
+	margin-top:3px;
+}
