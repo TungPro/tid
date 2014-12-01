@@ -1,4 +1,4 @@
-**TID
+TID
 TID sẽ giúp người dùng đăng ký tài khoản một lần duy nhất. Giúp cho người dùng không cần phải nhớ tên tài khoản và mật khẩu cho riêng từng trang dịch vụ. Thay vào đó họ chỉ cần đăng ký trước một tài khoản trên TID.
 
 Những lợi ích của TID:
@@ -9,7 +9,7 @@ Những lợi ích của TID:
 • Với người cung cấp dịch vụ: có thể truy cập được khối lượng lớn người dùng có trong hệ thống.
 
 ===
-**Công nghệ sử dụng
+Công nghệ sử dụng
 OAuth 2.0, PHP, MySQL
 
 ===
